@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # โหลดชุดข้อมูลไวน์
-wine = pd.read_csv('D:\\!!WORK\\!!WU-ITD\\3\\1-67\\ITD62-364 Business Analytics\\!Group\\data\\kaggle\\input\\furniture-sales-data\\winequality-red.csv', encoding="utf8")
+wine = pd.read_csv('winequality-red.csv")
 
 custom_palette = sns.color_palette("husl", len(wine['quality'].unique()))
 # แสดงความสัมพันธ์ระหว่างคุณภาพของไวน์กับคุณสมบัติต่าง ๆ
