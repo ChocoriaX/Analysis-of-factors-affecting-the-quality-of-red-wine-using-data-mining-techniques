@@ -10,7 +10,7 @@ from IPython.display import Image
 import graphviz
 
 # โหลดชุดข้อมูลไวน์
-wine = pd.read_csv('D:\\!!WORK\\!!WU-ITD\\3\\1-67\\ITD62-364 Business Analytics\\!Group\\data\\kaggle\\input\\furniture-sales-data\\winequality-red.csv', encoding="utf8")
+wine = pd.read_csv('winequality-red.csv')
 
 # ทำการแบ่งช่วงของค่าคุณภาพของไวน์เป็นคลาส "bad" และ "good"
 bins = (2, 6.5, 8)
